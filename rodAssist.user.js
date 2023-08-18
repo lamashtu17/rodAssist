@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DAM - Assist
 // @namespace    dekleinekobini.dam.assist
-// @version      4.2
+// @version      4.3
 // @description  Send an assist request to discord.
 // @author       DeKleineKobini [2114440] / lamashtu [2001015] ( >= 1.1 )
 // @match        https://www.torn.com/loader.php?sid=attack*
@@ -548,7 +548,7 @@ GM_addStyle(`
 
         const target = defenderName;
         const targetFaction = defenderFaction;
-        const targetID = defenderID;
+        const targetID = defenderID.toString;
         //const target = new URLSearchParams(location.search).get("user2ID");
         //const targetName = document.querySelector('#defender .userName___loAWK').textContent;
         //const script = $("script[src*='/builds/chat/']");
