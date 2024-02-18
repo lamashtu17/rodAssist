@@ -14,10 +14,10 @@
 // Check if REQ_URL_STORAGE object exists in local storage
 const storedUrls = getObject('REQ_URL_STORAGE');
 const REQ_URL_STORAGE = storedUrls !== null ? storedUrls : {
-    '(Alliance) Joint Operations': "http://wait-wtf.com:8399/assist"
+    'RoD Server': "http://wait-wtf.com:8399/assist"
 };
 
-const DEFAULT_REQUEST_URL = '(Alliance) Joint Operations';
+const DEFAULT_REQUEST_URL = 'RoD Server';
 
 let REQUEST_URL;
 let storedUrl = getObject('ROD_assist_savedUrl');
