@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DAM - Assist
 // @namespace    dekleinekobini.dam.assist
-// @version      4.4
+// @version      4.5
 // @description  Send an assist request to discord.
 // @author       DeKleineKobini [2114440] / lamashtu [2001015] ( >= 1.1 )
 // @match        https://www.torn.com/loader.php?sid=attack*
@@ -14,7 +14,7 @@
 // Check if REQ_URL_STORAGE object exists in local storage
 const storedUrls = getObject('REQ_URL_STORAGE');
 const REQ_URL_STORAGE = storedUrls !== null ? storedUrls : {
-    'RoD Server': "http://wait-wtf.com:8399/assist"
+    'ED HQ': "http://wait-wtf.com:8399/assist"
 };
 
 const DEFAULT_REQUEST_URL = 'RoD Server';
