@@ -159,6 +159,7 @@ GM_addStyle(`
       border-top: var(--appheader-delimiter-top-border);
     }
     #dam-container {
+      padding-right: -4%;
       display: flex;
       justify-content: space-around;
     }
